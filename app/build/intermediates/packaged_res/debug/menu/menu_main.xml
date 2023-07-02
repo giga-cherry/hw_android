@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/firstFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_restaurant_menu"
+        android:title="Первое"/>
+    <item
+        android:id="@+id/secondFragment2"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_restaurant"
+        android:title="Второе"/>
+    <item
+        android:id="@+id/thirdFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_set_meal"
+        android:title="Закуски"/>
+    <item
+        android:id="@+id/fourthFragment"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_cake_24"
+        android:title="Десерт"/>
+    <item
+        android:id="@+id/fifthFragment2"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_wine_bar_24"
+        android:title="Напитки"/>
+
+</menu>

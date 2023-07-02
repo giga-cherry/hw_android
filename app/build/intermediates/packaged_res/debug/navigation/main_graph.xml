@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/firstFragment">
+    <fragment
+        tools:layout="@layout/fragment_first"
+        android:id="@+id/firstFragment"
+        android:name="com.example.hw2.FirstFragment"
+        android:label="FirstFragment" >
+        <action
+            android:id="@+id/action_firstFragment_to_templeFragment"
+            app:destination="@id/templeFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_second"
+        android:id="@+id/secondFragment2"
+        android:name="com.example.hw2.SecondFragment"
+        android:label="SecondFragment" />
+    <fragment
+        tools:layout="@layout/fragment_third"
+        android:id="@+id/thirdFragment"
+        android:name="com.example.hw2.ThirdFragment"
+        android:label="ThirdFragment" />
+    <fragment
+        tools:layout="@layout/fragment_fourth"
+        android:id="@+id/fourthFragment"
+        android:name="com.example.hw2.FourthFragment"
+        android:label="FourthFragment" />
+    <fragment
+        tools:layout="@layout/fragment_fifth"
+        android:id="@+id/fifthFragment2"
+        android:name="com.example.hw2.FifthFragment"
+        android:label="FifthFragment" />
+    <fragment
+        tools:layout="@layout/fragment_temple"
+        android:id="@+id/templeFragment"
+        android:name="com.example.hw2.TempleFragment"
+        android:label="TempleFragment" />
+</navigation>
