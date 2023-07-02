@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Меню</string>
+    <string name="menu_first">First</string>
+    <string name="menu_second">Second</string>
+    <string name="menu_third">Third</string>
+    <string name="menu_fourth">Fourth</string>
+    <string name="menu_fifth">Fifth</string>
+</resources>
